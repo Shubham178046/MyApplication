@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Chart">
+
+    <Button
+        android:id="@+id/pie_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pie Chart"
+        android:textColor="@color/captainamerica"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bar_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bar Chart"
+        android:textColor="@color/captainamerica"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/range_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radar Chart"
+        android:textColor="@color/captainamerica"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/line_Chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Line Chart"
+        android:textColor="@color/captainamerica"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/combine_Chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Combine Chart"
+        android:textColor="@color/captainamerica"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>
